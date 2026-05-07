@@ -1036,7 +1036,7 @@ static void drawPhaseAlert(HDC dc) {
     fillRectLogical(dc, 0, 0, SCREEN_W, SCREEN_H, bgColor());
     set_text(dc, inkColor());
     select_font(dc, g_timerFont);
-    drawTextAligned(dc, phaseAlertMessage ? phaseAlertMessage : "DONE", SCREEN_CENTER_X, 84, 1);
+    drawTextAligned(dc, phaseAlertMessage ? phaseAlertMessage : "DONE", SCREEN_CENTER_X, 60, 1);
     select_font(dc, g_defaultFont);
     if (phaseAlertMessage && c_streq(phaseAlertMessage, "FINISHED")) {
         char buf[64]; fmt_loop_only(buf, loopCount, loopCount); drawTextAligned(dc, buf, SCREEN_CENTER_X, 158, 1);
