@@ -46,6 +46,7 @@
 <p align="center">
   <img src="assets/images/done.png" alt="完成提醒" width="400">
 </p>
+
 ## 操作概览
 
 - 方向键切换页面：工作计时、休息计时、设置、主题。
